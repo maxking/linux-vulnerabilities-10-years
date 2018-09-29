@@ -1,0 +1,15 @@
+/*.bbl
+/*.blg
+/*.fdb_latexmk
+/thesis.fls
+/thesis.loaf
+/thesis.loap
+/thesis.loat
+/thesis.lof
+/thesis.lot
+/*.tex
+/thesis.pdf
+/thesis.aux
+/thesis.log
+/thesis.out
+/thesis.toc
