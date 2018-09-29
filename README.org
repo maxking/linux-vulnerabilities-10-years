@@ -1,0 +1,28 @@
+#+TITLE: A Decade of Linux Kernel Vulnerabilities, their Mitigation and Open Problems
+
+This repository contains source for my Master's Thesis on different types of
+Linux Kernel Vulnerabilities that exist today. It consists of a survey of ~10
+years of Linux Kernel CVEs (2007-2016), divides them into various broad
+categories of Vulnerabilities and includes existing mitigation for them.
+
+While the mitigation aren't exhaustive, they are sampled from both Research
+Literature and industry i.e. existing code in Linux Kernel, out-of-tree patches
+etc. It also includes various tools that can be used to analyze and detect
+various kind of Vulnerabilities.
+
+
+* How to read this content?
+
+The entire thesis is divided into 5 chapters, first 3 of which are related to
+Linux Kernel Vulnerabilities. 4th chapter talks about Return Oriented
+Programming attacks. 5th Chapter concludes with what classes of vulnerabilities
+do and don't have any pro-active solution for them.
+
+You can browse [[thesis.org][a copy in the repository]] or have a look at the [[thesis.pdf][PDF]]. PDF has
+slightly better formatting and comes with complete references.
+
+
+* License
+
+All the contents of this repository are Licensed under CC BY-SA 4.0 License. A
+complete copy of the license can be found [[https://creativecommons.org/licenses/by-sa/4.0/legalcode][here]].
