@@ -501,10 +501,12 @@ memory by checking for magic value during allocation time. Because of the high
 performance overhead, this feature is disabled by default.
 
 ***** STRUCTLEAK
-~PAX_MEMORY_STRUCTLEAK~ GCC plugin was ported over to Linux 4.14 which
-zero-initializes all the local variables which are passed by reference without
-being initialized.  ~GCC_PLUGIN_STRUCTLEAK_BYREF_ALL~ is the configuration
-option that enables this feature.
+~PAX_MEMORY_STRUCTLEAK~ GCC plugin was ported over to Linux 4.11 which
+zero-initializes all the local variables containing ~__user~ annotations.
+~GCC_PLUGIN_STRUCTLEAK~ is the configuration option that enables this feature.
+
+Expanding on this coverage is ~GCC_PLUGIN_STRUCTLEAK_BYREF_ALL~ in Linux 4.14,
+which zero-initializes all the local variables which are passed by reference.
 
 **** Proposed Defenses in Research
 
