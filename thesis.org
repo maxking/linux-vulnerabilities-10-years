@@ -137,7 +137,7 @@ stable version of Linux which includes defenses from both projects. Since April
 2017, PaX/gesecurity patches are only available to paying customers of Open
 Source Inc.
 
-Research community has also produced countless research papers targetted to
+Research community has also produced countless research papers targeted to
 specific kinds of vulnerabilities and attacks with varied amount of success in
 terms of industry adoption, performance and security coverage.
 
@@ -1654,7 +1654,7 @@ section could have some entropy in it's base address making it hard to guess its
 value reliably. There are 256 and 512 random positions possible for 32bit and
 64bit x86 Linux in current implementation of ASLR. 
 
-***** GR Security
+***** grsecurity
 ~GRKERNSEC_RANDSTRUCT~ is a GCC plugin from grsecurity which randomizes the
 layout of all the structures comprised of function pointers (a.k.a /ops/
 structures) to make it harder to overwrite them using spatial memory
@@ -1910,7 +1910,7 @@ that high severity issues, while not un-common, are rare.
 In conclusion, the number of vulnerabilities in Linux has been on rise
 effectively in past 10 years. However, the survey of defenses added to Linux
 and other options that exist outside of Mainline Linux, points to an improved
-overall state of security. Table [[table:summar-of-all-defenses]] consists of an
+overall state of security. Table [[table:summary-all-defenses]] consists of an
 summary of solutions for various categories and open gaps for future research
 work and areas requiring performance improvements. It is impossible to make
 claims about the net-improvement in security of Linux /quantitatively/, but
