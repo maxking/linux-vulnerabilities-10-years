@@ -135,7 +135,7 @@ Control (RBAC) system and strict policies for access control in user-space. Over
 the years, The PaX Team and grsecurity have teamed up to maintain patches for
 stable version of Linux which includes defenses from both projects. Since April
 2017, PaX/gesecurity patches are only available to paying customers of Open
-Source Inc.
+Source Security, Inc.
 
 Research community has also produced countless research papers targeted to
 specific kinds of vulnerabilities and attacks with varied amount of success in
